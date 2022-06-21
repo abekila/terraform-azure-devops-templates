@@ -1,0 +1,28 @@
+{
+    "name": "terraform-azure-devops-templates",
+    "version": "1.0.0",
+    "description": "Collection of Library templates to use in for Terraform related deployment in Azure DevOps",
+    "main": "index.js",
+    "dependencies": {
+      "yaml-lint": "1.2.4",
+      "powershell": ""
+    },
+    "devDependencies": {},
+    "scripts": {
+      "test": "cat lint_config_file && yamllint -d lint_config_file **/*.yml"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/abekila/terraform-azure-devops-templates.git"
+    },
+    "keywords": [
+      "azure-devops",
+      "templates",
+      "libary"
+    ],
+    "author": "GSK",
+    "bugs": {
+      "url": "https://github.com/abekila/terraform-azure-devops-templates/issues"
+    },
+    "homepage": "https://github.com/abekila/terraform-azure-devops-templates#readme"
+  }
